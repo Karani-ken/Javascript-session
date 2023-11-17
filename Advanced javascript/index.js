@@ -100,3 +100,38 @@ component.appendChild(element);
 
 //random order sort
 //points.sort(function(){return 0.5 - Math.random()});
+
+//sets
+//how to create a set
+const letters = new Set(['a','b','c']);
+const fruits = new Set();
+fruits.add('orange');
+
+//map
+const friends = new Map(
+    ["james", 100],
+    ["Nimrod",10]
+)
+friends.set("Ashley", 20);
+//get()
+//delete()
+//has()
+
+//Regular Expressions
+// /pattern/modifiers
+
+let mySentense = "this is a goat";
+mySentense.search("this");
+mySentense.search(/this/i);
+/**
+ * i
+ * g
+ * m
+ */
+//regexp patterns
+const pattern = /[abcdefghijklmnopqrstuvwxyz][1234567890]/i
+pattern.test("This is a 92 podcast 001 ep 1");
+
+
+
+
